@@ -1,4 +1,4 @@
-package practiceProblem01;
+package practiceProblemWeak01;
 
 import java.util.*;
 
