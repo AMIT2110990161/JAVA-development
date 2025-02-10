@@ -1,5 +1,3 @@
-package practiceProblemWeak02;
-
 public class Employee {
     private String name;
     private int id;

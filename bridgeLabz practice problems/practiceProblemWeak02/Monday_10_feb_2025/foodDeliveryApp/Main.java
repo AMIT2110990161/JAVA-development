@@ -1,4 +1,4 @@
-package practiceProblemWeak02.foodDeliveryApp;
+package foodDeliveryApp;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,4 +18,3 @@ public class Main {
         System.out.println("Is Sushi available in Italian Delight? " + restaurant1.isFoodAvailable("Sushi"));
     }
 }
-

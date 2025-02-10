@@ -1,4 +1,4 @@
-package practiceProblemWeak02.foodDeliveryApp;
+package foodDeliveryApp;
 
 public class Restaurant {
     private String name;
@@ -28,7 +28,4 @@ public class Restaurant {
         }
         return false;
     }
-
-
-
 }
