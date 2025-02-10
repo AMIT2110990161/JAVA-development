@@ -4,17 +4,19 @@ public class AnoynamousAndFunctionalInterFace {
     public static void main(String[] args) {
         
         Parent p = new Parent(){ // Anoynamous function
-            int respo = 2;
-            public void printRespo(){
-                System.out.println(respo);
-            }
+            
         };
     
         p.job();
             
-        Worker wr = () -> { // function interface
-            
+        Worker wr = (int num) -> { // function interface
+            System.out.println("I am worker");
+            return num;
         };
+        wr.counter(5);
+
+        Worker obj = (int n) -> n*2;
+        System.out.println(obj.counter(2));
     }
  }
         
@@ -27,7 +29,5 @@ class Parent{
 
 
 interface Worker{
-    void work(){
-        System.out.println("wana work with us");
-    }
+    int counter(int num);
 }
