@@ -5,6 +5,15 @@ public class Students {
     protected String name;
     private double CGPA;
 
+    public Students(){
+
+    }
+
+    public Students(long rollNuber, String name) {
+        this.rollNuber = rollNuber;
+        this.name = name;
+    }
+
     double getCgpa(){
         return CGPA;
     }
@@ -14,6 +23,8 @@ public class Students {
     }
 
     public static void main(String[] args) {
-        Students st = new Students();
+        Students st = new Students(161, "Amit kumar");
+        st.setCgpa(8.23);
+        System.out.println(st.getCgpa());
     }
 }
