@@ -1,4 +1,4 @@
-package practiceProblemWeak01.AssitedProblems;
+package practiceProblem_Weak00.AssitedProblems;
 
 import java.util.Scanner;
 

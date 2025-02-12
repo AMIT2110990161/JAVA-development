@@ -1,4 +1,4 @@
-package practiceProblemWeak01.SelfProblems;
+package practiceProblem_Weak00.SelfProblems;
 
 import java.util.Scanner;
 

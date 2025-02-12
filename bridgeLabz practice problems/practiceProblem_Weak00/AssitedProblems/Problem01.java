@@ -1,4 +1,4 @@
-package practiceProblemWeak01.AssitedProblems;
+package practiceProblem_Weak00.AssitedProblems;
 
 public class Problem01 {
     public static void main(String[] args) {
