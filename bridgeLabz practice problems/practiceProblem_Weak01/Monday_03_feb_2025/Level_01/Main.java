@@ -63,15 +63,15 @@ public class Main {
         System.out.println();
 
         // Convert Kilometers to Miles
-        double km = 10; // Example km value
-        double miles = km / 1.6; // Renamed variable to 'miles'
+        double km = 10;
+        double miles = km / 1.6; 
         System.out.println("The total miles is " + miles + " miles for the given " + km + " km");
         System.out.println("---------------Next Program-------------------");
         System.out.println();
 
         // Compute Student Fee after Discount
-        double studentFee = 50000; // Example fee
-        double discountPercent = 15; // Example discount percent
+        double studentFee = 50000;
+        double discountPercent = 15; 
         
         double discountAmount = (discountPercent / 100) * studentFee;
         double finalFee = studentFee - discountAmount;
@@ -81,7 +81,7 @@ public class Main {
         System.out.println();
 
         // Convert Height in Centimeters to Feet and Inches
-        double cm = 170; // Example height in cm
+        double cm = 170; 
         
         double inches = cm / 2.54; 
         int feet = (int) (inches / 12); 
@@ -92,31 +92,31 @@ public class Main {
         System.out.println();
 
         // Basic Calculator
-        double number1 = 12.5; // Example number
-        double number2 = 3.5; // Example number
+        double number1 = 12.5; 
+        double number2 = 3.5; 
         
         double addition = number1 + number2;
         double subtraction = number1 - number2;
         double multiplication = number1 * number2;
-        double division = (number2 != 0) ? number1 / number2 : 0; // Check for division by zero
+        double division = (number2 != 0) ? number1 / number2 : 0; 
         
         System.out.println("The addition, subtraction, multiplication, and division value of 2 numbers " + number1 + " and " + number2 + " is " + addition + ", " + subtraction + ", " + multiplication + ", and " + division);
         System.out.println("---------------Next Program-------------------");
         System.out.println();
 
         // Calculate Area of a Triangle
-        double base = 5; // Example base
-        double height = 10; // Example height
+        double base = 5; 
+        double height = 10; 
         
         double areaInches2 = 0.5 * base * height;
-        double areaCm2 = areaInches2 * 6.4516; 
+        double areaCm2 = areaInches2 * 6.4; 
         
         System.out.println("The area of the triangle is " + areaInches2 + " square inches and " + areaCm2 + " square centimeters.");
         System.out.println("---------------Next Program-------------------");
         System.out.println();
 
         // Calculate Side of Square from Perimeter
-        double perimeter = 16; // Example perimeter
+        double perimeter = 16; 
         
         double side = perimeter / 4;
         System.out.println("The length of the side is " + side + " whose perimeter is " + perimeter);
@@ -124,18 +124,18 @@ public class Main {
         System.out.println();
 
         // Convert Distance in Feet to Yards and Miles
-        double feetDistance = 120; // Example distance in feet
+        double feetDistance = 120; 
         
         double yards = feetDistance / 3;
-        double milesFromFeet = yards / 1760; // Renamed to avoid conflict with 'miles'
+        double milesFromFeet = yards / 1760;
         
         System.out.println("The distance in yards is " + yards + " and in miles is " + milesFromFeet);
         System.out.println("---------------Next Program-------------------");
         System.out.println();
 
         // Calculate Total Price of Purchase
-        double unitPrice = 500; // Example unit price
-        int quantity = 5; // Example quantity
+        double unitPrice = 500; 
+        int quantity = 5;
         
         double totalPrice = unitPrice * quantity;
         System.out.println("The total purchase price is INR " + totalPrice + " if the quantity is " + quantity + " and unit price is INR " + unitPrice);
@@ -143,11 +143,8 @@ public class Main {
         System.out.println();
 
         // Maximum Number of Handshakes among N Students
-        int numberOfStudents = 10; // Example number of students
-        
+        int numberOfStudents = 10;
         int handshakes = (numberOfStudents * (numberOfStudents - 1)) / 2;
         System.out.println("The maximum number of possible handshakes is " + handshakes);
-        System.out.println("---------------Next Program-------------------");
-        System.out.println();
     }
 }
