@@ -2,7 +2,7 @@ package practiceProblem_Weak01.Thrusday_06_feb_2025.Level_02;
 
 import java.util.Arrays;
 
-public class RandomArrayStats {
+public class RandomArrayNumber {
     public static void main(String[] args) {
         
         int[] randomNumbers = generate4DigitRandomArray(5);
