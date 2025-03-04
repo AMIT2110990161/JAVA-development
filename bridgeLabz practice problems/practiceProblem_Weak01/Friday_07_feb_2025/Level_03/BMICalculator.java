@@ -80,6 +80,7 @@ public class BMICalculator {
     
            
             displayBMIData(resultData);
+            sc.close();
     
     
         }

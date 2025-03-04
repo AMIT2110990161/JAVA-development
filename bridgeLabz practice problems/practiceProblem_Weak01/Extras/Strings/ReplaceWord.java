@@ -10,5 +10,6 @@ public class ReplaceWord {
         String modifiedSentence = sentence.replace(oldWord, newWord);
 
         System.out.println("Modified Sentence: " + modifiedSentence);
+        sc.close();
     }
 }

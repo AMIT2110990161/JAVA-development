@@ -20,5 +20,6 @@ public class RemoveDuplicates{
     String str = sc.nextLine();
 
     System.out.println(rmDuplicates(str));
+    sc.close();
   }
 }

@@ -38,5 +38,6 @@ public class AnagramChecker {
         } else {
             System.out.println("The two texts are not anagrams.");
         }
+        sc.close();
     }
 }

@@ -27,5 +27,6 @@ public class VowelsConsonents{
 
     System.out.println("Vowels: " + count[0]);
     System.out.println("Consonents: " + count[1]);
+    sc.close();
   }
 }

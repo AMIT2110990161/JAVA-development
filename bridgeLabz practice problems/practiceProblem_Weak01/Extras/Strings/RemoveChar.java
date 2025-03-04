@@ -11,5 +11,6 @@ public class RemoveChar {
         String result = str.replaceAll(String.valueOf(charToRemove), "");
 
         System.out.println("Modified String: " + result);
+        sc.close();
     }
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class ToggleCase{
     public static String toggleCases(String str){
       StringBuilder sb = new StringBuilder();

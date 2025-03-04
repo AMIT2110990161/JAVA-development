@@ -17,5 +17,6 @@ public class LongestWord{
     String str = sc.nextLine();
 
     System.out.println(findLongest(str));
+    sc.close();
   }
 }

@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class CompareStrings{
     public static void compare(String s1, String s2){
       String[] order = new String[2];

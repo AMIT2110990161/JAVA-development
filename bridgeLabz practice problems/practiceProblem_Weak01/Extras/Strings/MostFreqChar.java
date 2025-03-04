@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class MostFreqChar{
     public static char findMostFreq(String str){
       int mostCount = Integer.MIN_VALUE;

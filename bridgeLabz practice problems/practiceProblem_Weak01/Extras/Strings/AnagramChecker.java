@@ -14,6 +14,7 @@ public class AnagramChecker {
         } else {
             System.out.println("The strings are not anagrams.");
         }
+        sc.close();
     }
 
     public static boolean areAnagrams(String str1, String str2) {
