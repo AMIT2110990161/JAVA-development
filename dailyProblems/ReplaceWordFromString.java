@@ -1,4 +1,4 @@
-package dailyProblems;
+
 
 class ReplaceWordFromString {
 

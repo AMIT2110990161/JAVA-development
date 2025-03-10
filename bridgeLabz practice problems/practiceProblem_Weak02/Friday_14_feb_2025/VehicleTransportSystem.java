@@ -1,6 +1,6 @@
 package practiceProblem_Weak02.Friday_14_feb_2025;
 
-// Vehicle and Transport System
+
 class Vehicle {
     int maxSpeed;
     String fuelType;
@@ -65,9 +65,13 @@ public class VehicleTransportSystem {
             new Motorcycle(150, "Petrol", false)
         };
 
+        // Vehicle v = new Car(80, "Petrol", 5);
+
         for (Vehicle vehicle : vehicles) {
             vehicle.displayInfo();
             System.out.println();
         }
+
+        // v.displayInfo();
     }
 }

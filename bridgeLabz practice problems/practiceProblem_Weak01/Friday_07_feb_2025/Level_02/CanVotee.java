@@ -1,4 +1,5 @@
-import java.util.*;
+package practiceProblem_Weak01.Friday_07_feb_2025.Level_02;
+import java.util.Random;
 
 public class CanVotee{
   public static int[] generateRandomAge(){
